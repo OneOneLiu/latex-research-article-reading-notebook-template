@@ -1,0 +1,105 @@
+FN Clarivate Analytics Web of Science
+VR 1.0
+PT S
+AU Zeng, A
+   Song, SR
+   Welker, S
+   Lee, J
+   Rodriguez, A
+   Funkhouser, T
+AF Zeng, Andy
+   Song, Shuran
+   Welker, Stefan
+   Lee, Johnny
+   Rodriguez, Alberto
+   Funkhouser, Thomas
+BA Kosecka, J
+BF Kosecka, J
+BE Maciejewski, AA
+   Okamura, A
+   Bicchi, A
+   Stachniss, C
+   Song, DZ
+   Lee, DH
+   Chaumette, F
+   Ding, H
+   Li, JS
+   Wen, J
+   Roberts, J
+   Masamune, K
+   Chong, NY
+   Amato, N
+   Tsagwarakis, N
+   Rocco, P
+   Asfour, T
+   Chung, WK
+   Yasuyoshi, Y
+   Sun, Y
+   Maciekeski, T
+   Althoefer, K
+   AndradeCetto, J
+   Chung, WK
+   Demircan, E
+   Dias, J
+   Fraisse, P
+   Gross, R
+   Harada, H
+   Hasegawa, Y
+   Hayashibe, M
+   Kiguchi, K
+   Kim, K
+   Kroeger, T
+   Li, Y
+   Ma, S
+   Mochiyama, H
+   Monje, CA
+   Rekleitis, I
+   Roberts, R
+   Stulp, F
+   Tsai, CHD
+   Zollo, L
+TI Learning Synergies between Pushing and Grasping with Self-supervised
+   Deep Reinforcement Learning
+SO 2018 IEEE/RSJ INTERNATIONAL CONFERENCE ON INTELLIGENT ROBOTS AND SYSTEMS
+   (IROS)
+SE IEEE International Conference on Intelligent Robots and Systems
+LA English
+DT Proceedings Paper
+CT 25th IEEE/RSJ International Conference on Intelligent Robots and Systems
+   (IROS)
+CY OCT 01-05, 2018
+CL Madrid, SPAIN
+SP IEEE Robot & Automat Soc, IEEE Ind Elect Soc, Robot Soc Japan, Soc Instrument & Control Engineers, New Technol Fdn, IEEE, Adept MobileRobots, Willow Garage, Aldebaran Robot, Natl Instruments, Reflexxes GmbH, Schunk Intec S L U, Univ Carlos III Madrid, BOSCH, JD COM, Pal Robot, KUKA, Santander, Squirrel AI Learning, Baidu, Generat Robots, KINOVA Robot, Ouster, Univ Pablo Olavide Sevilla, Rapyuta Robot, SICK, TOYOTA, UP, Amazon, ARGO, Built Robot, Disney Res, Easy Mile, Hitachi, Robot, Khalifa Univ, Magazino, MathWorks, New Dexterity, Schunk, nuTonomy, PILZ, Prophesee, Rootnik, Saga Robot, Shadow, Soft Bank Robot, Anyverse, GalTech, Generat Robot, IEEE CAA Journal Automatica Sinica, Sci Robot, AAAS, TERAS
+AB Skilled robotic manipulation benefits from complex synergies between non-prehensile (e.g. pushing) and prehensile (e.g. grasping) actions: pushing can help rearrange cluttered objects to make space for arms and fingers; likewise, grasping can help displace objects to make pushing movements more precise and collision-free. In this work, we demonstrate that it is possible to discover and learn these synergies from scratch through model-free deep reinforcement learning. Our method involves training two fully convolutional networks that map from visual observations to actions: one infers the utility of pushes for a dense pixel-wise sampling of end-effector orientations and locations, while the other does the same for grasping. Both networks are trained jointly in a Q-learning framework and are entirely self-supervised by trial and error, where rewards are provided from successful grasps. In this way, our policy learns pushing motions that enable future grasps, while learning grasps that can leverage past pushes. During picking experiments in both simulation and real-world scenarios, we find that our system quickly learns complex behaviors even amid challenging cases of tightly packed clutter, and achieves better grasping success rates and picking efficiencies than baseline alternatives after a few hours of training. We further demonstrate that our method is capable of generalizing to novel objects. Qualitative results (videos), code, pre-trained models, and simulation environments are available at http://vpg.es.prineeton.edu
+C1 [Zeng, Andy; Song, Shuran; Funkhouser, Thomas] Princeton Univ, Princeton, NJ 08544 USA.
+   [Zeng, Andy; Song, Shuran; Welker, Stefan; Lee, Johnny; Funkhouser, Thomas] Google, Mountain View, CA 94043 USA.
+   [Rodriguez, Alberto] MIT, Cambridge, MA 02139 USA.
+RP Zeng, A (corresponding author), Princeton Univ, Princeton, NJ 08544 USA.; Zeng, A (corresponding author), Google, Mountain View, CA 94043 USA.
+FU NSFNational Science Foundation (NSF) [VEC 1539014/1539099]; Google;
+   IntelIntel Corporation; NVIDIA; ABB; Mathworks
+FX The authors thank NSF (VEC 1539014/1539099), Google, Intel, NVIDIA, ABB,
+   and Mathworks for hardware and financial support.
+NR 38
+TC 11
+Z9 11
+U1 1
+U2 1
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN 2153-0858
+BN 978-1-5386-8094-0
+J9 IEEE INT C INT ROBOT
+PY 2018
+BP 4238
+EP 4245
+PG 8
+WC Computer Science, Artificial Intelligence; Computer Science, Information
+   Systems; Robotics
+SC Computer Science; Robotics
+GA BM0LT
+UT WOS:000458872703132
+DA 2020-07-23
+ER
+
+EF
