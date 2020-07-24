@@ -1,0 +1,10 @@
+python3.x
+-- time
+-- re
+-- os
+-- string
+-- shutil
+
+latex  ##版本不限，我是直接下载的miktex
+
+sublime text3  ##非必需，主要是我一直在使用，编辑时有一些snippet可以提高效率，使用此项的话需要安装好插件LatexTools
