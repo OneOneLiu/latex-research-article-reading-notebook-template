@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+\begin{tikzpicture}
+\node(definition)[startstop]{${1:Definition1}};
+\node (subtask1) [process, right of=definition,xshift = 3cm,yshift = 1cm] {${2:Definition1}};
+\node (subtask2) [process, right of=definition,xshift = 3cm,yshift = -1cm] {${3:Definition1}};
+
+\draw [arrow] (subtask1) -- (definition);
+\draw [arrow] (subtask2) -| (definition);
+\end{tikzpicture}
+]]></content>
+    }
+    }
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>tik</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope></scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>流程图</description>
+</snippet>

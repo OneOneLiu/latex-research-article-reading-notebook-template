@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+\lim_{${1:x}\to ${2:+\infty}}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>lim</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.tex.latex</scope>
+</snippet>

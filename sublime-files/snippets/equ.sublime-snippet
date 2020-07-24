@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+%硬件设备积累
+\subsection{硬件设备及其他}
+    \begin{table}[htbp]
+        \centering
+        \small
+        \caption{硬件设备及其它}
+        \begin{tabular}{llll}
+            \toprule
+            名称 &类型 &来源 &备注\\
+            \midrule
+             & & & \\
+            \bottomrule
+        \end{tabular}
+        \label{tab:n.equipment}%
+    \end{table}%
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>equ</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.tex.latex</scope>
+</snippet>

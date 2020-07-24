@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+%数据集等积累
+\subsection{数据集和模型积累}
+    \begin{table}[htbp]
+        \centering
+        \small
+        \caption{数据集和模型积累}
+        \begin{tabular}{llll}
+            \toprule
+            名称 &类型 &来源 &备注\\
+            \midrule
+             &数据集 & & \\
+            \bottomrule
+        \end{tabular}%
+        \label{tab:n.dataset}%
+    \end{table}%
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>model</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.tex.latex</scope>
+</snippet>

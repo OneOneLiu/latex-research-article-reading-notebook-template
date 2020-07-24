@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+%重点参考文献
+\subsection{重点参考文献}
+    
+    \begin{enumerate}[{[1].}]
+        
+        \item  ; ;
+
+    \end{enumerate}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>refer</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.tex.latex</scope>
+</snippet>

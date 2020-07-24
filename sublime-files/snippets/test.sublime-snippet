@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+# ${310}
+IS-${310/(ae)|(?:(\w{2}-))|(?:(\/))/(?1\U$1:)(?2:)(?3:_)/g}-BUSINESS
+]]></content>
+    <tabTrigger>test</tabTrigger>
+</snippet>

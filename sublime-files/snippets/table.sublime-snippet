@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+\begin{table}[htbp]
+    \centering
+    \small
+    \caption{${1:caption}}
+    \begin{tabular}{l|l}
+        \toprule
+        1&2
+        \bottomrule
+        \end{tabular}%
+        \label{tab:${1.1}}%
+\end{table}
+    ]]></content>
+    }
+    }
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>tab</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope></scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>insert figure</description>
+</snippet>
