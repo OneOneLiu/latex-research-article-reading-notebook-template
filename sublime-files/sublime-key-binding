@@ -1,0 +1,8 @@
+[
+  {"keys":["ctrl+m"],"command":"run_macro_file","args":{"file":"Packages/User/my macro/x2mathx.sublime-macro"}},//替换字母为数学形式
+  {"keys":["ctrl+shift+m"],"command":"run_macro_file","args":{"file":"Packages/User/my macro/mathinline.sublime-macro"}},//行内数学公式
+  {"keys":["alt+shift+m"],"command":"run_macro_file","args":{"file":"Packages/User/my macro/mathinpar.sublime-macro"}},//行内数学公式
+  {"keys":["ctrl+l"],"command":"run_macro_file","args":{"file":"Packages/User/my macro/newline.sublime-macro"}},//换行符
+  {"keys":["alt+a"],"command":"run_macro_file","args":{"file":"Packages/User/my macro/and.sublime-macro"}},//&符号
+  {"keys":["ctrl+shift+,"],"command":"add_current_time"},//&插入当前时间
+]
